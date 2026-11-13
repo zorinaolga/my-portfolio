@@ -12,7 +12,7 @@ export default function App() {
         </a>
         <nav className="nav" aria-label="Головна навігація">
           <a href="#ux-ui">UX/UI Дизайн</a>
-          <a href="#content">Контент</a>
+          <a href="#content">ШІ Контент</a>
           <a href="#contact">Контакти</a>
         </nav>
         <div className="header__tools">
