@@ -30,23 +30,23 @@ export default function App() {
       </header>
 
       <main id="top" className="hero">
-        <div className="hero__photo">
-          <img src={persona} alt="Olha Zorina" />
-        </div>
         <div className="hero__descr">
           <div className="hero__text">
             <div className="hero__name">
               <p className="hero__title">Візуальна дизайнерка</p>
-              <h1>Olha Zorina</h1>
+              <p className="hero__person">Olha Zorina</p>
             </div>
-            <p className="hero__lead">
+            <h1 className="hero__lead">
               Сайт і візуальний контент для вашого бізнесу в єдиному стилі від
               одного виконавця.
-            </p>
+            </h1>
           </div>
           <a href="#contact" className="btn btn--filled">
             Зв'язатися
           </a>
+        </div>
+        <div className="hero__photo">
+          <img src={persona} alt="Olha Zorina" />
         </div>
       </main>
     </>
