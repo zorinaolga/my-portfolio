@@ -107,7 +107,7 @@ a {
   justify-content: space-between;
   gap: 40px;
   min-height: 680px;
-  padding: 56px clamp(16px, 7vw, 100px) 0;
+  padding: 56px clamp(16px, 7vw, 100px);
 }
 
 .hero__descr {
@@ -118,7 +118,6 @@ a {
   align-items: flex-start;
   justify-content: space-between;
   gap: 48px;
-  padding-bottom: 80px;
 }
 
 .hero__text {
@@ -154,13 +153,13 @@ a {
 
 .hero__photo {
   flex: 0 0 auto;
-  align-self: flex-end;
+  align-self: stretch;
   width: 340px;
-  height: 520px;
+  min-height: 480px;
   display: flex;
   justify-content: center;
   overflow: hidden;
-  border-radius: 28px 28px 0 0;
+  border-radius: 28px;
 }
 
 .hero__photo img {
@@ -180,9 +179,6 @@ a {
     flex-direction: column;
     min-height: 0;
     gap: 40px;
-  }
-  .hero__descr {
-    padding-bottom: 0;
   }
   .hero__photo {
     align-self: center;
