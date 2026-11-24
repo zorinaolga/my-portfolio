@@ -1,14 +1,14 @@
-import logo from './assets/logo.svg'
-import arrow from './assets/arrow.svg'
-import brightness from './assets/brightness.svg'
-import persona from './assets/persona.png'
+import logo from '@/assets/logo.svg'
+import arrow from '@/assets/arrow.svg'
+import brightness from '@/assets/brightness.svg'
+import persona from '@/assets/persona.png'
 
-export default function App() {
+export default function Home() {
   return (
     <>
       <header className="header">
         <a href="#top" className="header__logo" aria-label="Olha Zorina">
-          <img src={logo} alt="" />
+          <img src={logo.src} alt="" />
         </a>
         <nav className="nav" aria-label="Головна навігація">
           <a href="#ux-ui">UX/UI Дизайн</a>
@@ -18,10 +18,10 @@ export default function App() {
         <div className="header__tools">
           <button type="button" className="lang" aria-label="Мова">
             Укр
-            <img src={arrow} alt="" width={36} height={36} />
+            <img src={arrow.src} alt="" width={36} height={36} />
           </button>
           <button type="button" className="mode" aria-label="Змінити тему">
-            <img src={brightness} alt="" width={32} height={32} />
+            <img src={brightness.src} alt="" width={32} height={32} />
           </button>
           <a href="#contact" className="btn btn--outline">
             Написати
@@ -46,7 +46,7 @@ export default function App() {
           </a>
         </div>
         <div className="hero__photo">
-          <img src={persona} alt="Olha Zorina" />
+          <img src={persona.src} alt="Olha Zorina" />
         </div>
       </main>
     </>
