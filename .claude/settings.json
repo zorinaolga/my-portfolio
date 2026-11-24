@@ -10,7 +10,11 @@
       "Bash(git push *)"
     ],
     "deny": [
-      "Read(./.env*)"
+      "Read(./.env*)",
+      "Read(**/.env*)",
+      "Edit(./.env*)",
+      "Bash(*.env*)",
+      "PowerShell(*.env*)"
     ]
   }
 }
